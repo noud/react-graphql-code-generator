@@ -1,7 +1,10 @@
 {
   "name": "react-graphql-code-generator",
   "version": "0.1.0",
-  "private": true,
+  "description": "React GraphQL Code Generator to Blog Posts",
+  "repository": "https://github.com/noud/react-graphql-code-generator",
+  "author": "Noud de Brouwer <noud4@home.nl>",
+  "license": "MIT",
   "dependencies": {
     "@graphql-codegen/cli": "^1.8.1",
     "@types/jest": "24.0.18",
