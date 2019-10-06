@@ -1,4 +1,4 @@
-.Posts {
+.PostsList {
     height: 100vh;
     overflow: hidden auto;
     background-color: #ececec;
@@ -7,13 +7,13 @@
     padding-right: 20px;
 }
   
-.Posts__list {
+.PostsList__list {
     list-style: none;
     margin: 0;
     padding: 0;
 }
   
-.Posts__item {
+.PostsList__item {
     padding-top: 20px;
     padding-bottom: 20px;
     border-top: 1px solid #919191;

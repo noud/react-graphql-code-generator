@@ -6,11 +6,11 @@ interface Props {
   data: PostsQuery;
 }
 
-const className = 'LaunchList';
+const className = 'PostsList';
 
 const Post: React.FC<Props> = ({ data }) => (
   <div className={className}>
-    <h3>Launches</h3>
+    <h3>Posts</h3>
     <ol className={`${className}__list`}>
       {!!data.posts &&
         data.posts.map(
