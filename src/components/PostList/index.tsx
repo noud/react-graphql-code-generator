@@ -1,9 +1,9 @@
 import * as React from 'react';
-import { usePostsQuery } from '../../generated/graphql';
+import { useAllPostsQuery } from '../../generated/graphql';
 import PostList from './Post';
 
 const PostListContainer = () => {
-  const { data, error, loading } = usePostsQuery();
+  const { data, error, loading } = useAllPostsQuery();
 
   if (loading) {
     return <div>Loading...</div>;
