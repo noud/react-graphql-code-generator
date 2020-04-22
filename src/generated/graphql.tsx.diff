@@ -1,0 +1,15 @@
+--- src/generated/graphql.tsx.orig	2020-04-22 14:31:22.473737012 +0000
++++ src/generated/graphql.tsx	2020-04-22 14:29:10.029330477 +0000
+@@ -286,9 +286,9 @@
+ };
+ 
+ 
+-export type QueryPostArgs = {
+-  id?: Maybe<PostEdit>
+-};
++// export type QueryPostArgs = {
++//   id?: Maybe<PostEdit>
++// };
+ 
+ 
+ export type QueryPostArgs = {
